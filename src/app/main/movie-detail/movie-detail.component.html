@@ -1,1 +1,5 @@
-<p>movie-detail works!</p>
+<div *ngIf="movie">
+<p>{{ movie.title }}</p>
+<p>{{ movie.description }}</p>
+{{movie.average_rating}} out of {{movie.no_of_ratings}}
+</div>
